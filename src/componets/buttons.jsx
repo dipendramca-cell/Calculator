@@ -39,7 +39,7 @@ function Buttons({ setValue, valInput }) {
       </p>
       <div
         id="butt"
-        className="m-2 mt-4  *:rounded-2xl *:text-center *:py-2 [&>button:not(.special)]:active:bg-gray-200 *:transform *:transition *:text-2xl *:text-gray-800 flex sm:gap-3 gap-2 flex-wrap justify-center *:capitalize sm:*:w-20 *:w-15 [&>button:not(.special)]:bg-gray-100 mb-5 *:h-15 *:shadow-md"
+        className="m-2 mt-4  *:rounded-2xl *:text-center *:py-2 [&>button:not(.special)]:active:bg-gray-200 *:transform *:transition *:text-2xl *:text-gray-800 flex sm:gap-3 gap-2 flex-wrap justify-center *:capitalize sm:*:w-20 *:w-15 [&>button:not(.special)]:bg-gray-100 mb-5 *:h-15 sm:*:h-20 *:shadow-md"
       >
         {buttonName.map((buttonr, indx) => {
           if (
