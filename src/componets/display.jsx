@@ -6,7 +6,7 @@ function Display() {
 
   return (
     <>
-      <div className="flex justify-between px-3 items-center mt-2">
+      <div className="flex justify-between px-3 items-center mt-2 select-none">
         <div className="text-left font-bold">ORBIT</div>
         <div className="text-right text-gray-400">
           <h1 className="text-[11px] font-semibold">ELECTRONIC CALCULATOR</h1>
@@ -14,7 +14,7 @@ function Display() {
         </div>
       </div>
       <div className="py-4 sm:py-6 bg-[#e9eef6] shadow mx-3 mt-3 rounded-xl">
-        <p className="text-left px-3 text-[10px] text-gray-400">READY</p>
+        <p className="text-left px-3 text-[10px] text-gray-400 select-none">READY</p>
         <input
           id="display"
           type="text"
